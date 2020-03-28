@@ -2568,6 +2568,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+      <!--
       <model name='my_ball'>
         <pose frame=''>-5.79222 0.337924 0.1 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -2578,6 +2579,9 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+      -->
+      
+      <!--
       <model name='my_robot'>
         <pose frame=''>-1.15005 1.71007 0.100002 -2e-06 0.000176 -1.79884</pose>
         <scale>1 1 1</scale>
@@ -2600,6 +2604,8 @@
           <wrench>-46.6973 10.0178 90.5296 0 -0 0</wrench>
         </link>
       </model>
+      -->
+      
       <model name='pine_tree'>
         <pose frame=''>-4.17964 -2.94708 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -4161,6 +4167,7 @@
       <allow_auto_disable>1</allow_auto_disable>
       <pose frame=''>-1.42618 -0.586216 0 0 -0 0</pose>
     </model>
+    <!--
     <model name='my_ball'>
       <link name='link_0'>
         <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4263,6 +4270,8 @@
       <allow_auto_disable>1</allow_auto_disable>
       <pose frame=''>-1.00572 0.337924 0 0 -0 0</pose>
     </model>
+    -->
+    <!--
     <model name='my_robot'>
       <link name='robot_footprint'>
         <pose frame=''>0 0 0 0 -0 0</pose>
@@ -4690,5 +4699,7 @@
       </plugin>
       <pose frame=''>-1.15 1.71 0.1 0 0 -1.8</pose>
     </model>
+    -->
+    
   </world>
 </sdf>
