@@ -27,7 +27,7 @@ source devel/setup.bash
 roslaunch my_robot amcl.launch
 ```
 
-Terminal1 (launching robot control):
+Terminal3 (launching robot control):
 ```
 cd WhereAmI/catkin_ws/
 source devel/setup.bash
