@@ -13,3 +13,23 @@ catkin_make
 ```
 
 # Run code
+Terminal1 (launching simulation):
+```
+cd WhereAmI/catkin_ws/
+source devel/setup.bash
+roslaunch my_robot world.launch
+```
+
+Terminal2 (launching AMCL localization):
+```
+cd WhereAmI/catkin_ws/
+source devel/setup.bash
+roslaunch my_robot amcl.launch
+```
+
+Terminal1 (launching robot control):
+```
+cd WhereAmI/catkin_ws/
+source devel/setup.bash
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
