@@ -1,5 +1,5 @@
-# RoboticsND-ChaseIt
-Implement robot with camera sensor in ROS/Gazebo and make it chase white ball placed in simulation.
+# RoboticsND-WhereAmI
+Implement robot with camera sensor in ROS/Gazebo and make it localize itself in simulated world using AMCL.
 
 # Setup
 
